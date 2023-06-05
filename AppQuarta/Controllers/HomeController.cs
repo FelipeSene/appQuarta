@@ -27,6 +27,11 @@ namespace AppQuarta.Controllers
             {
                 return View("Resultado", objPessoa);
             }
+
+            //if(string.IsNullOrEmpty(objPessoa.Obs))
+            //{
+            //    ModelState.AddModelError("Obs", "O campo observação é obrigatório")
+            //}
             return View();
         }
 
